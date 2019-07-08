@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Search Workshops</string>
+    <string name="location">Location</string>
+    <string name="colon">:</string>
+    <string name="starting_date">Starting Date</string>
+    <string name="duration">Duration</string>
+    <string name="apply_by">Apply By</string>
+    <string name="press_again">Please click BACK again to exit</string>
+    <string name="search_workshop">Search Workshop</string>
+    <string name="not_applied">You haven\'t applied for any  workshop. Tap below to search</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="wt_map_head">Find Workshop</string>
+    <string name="wt_learn_head">Learn New Things</string>
+    <string name="wt_explore_head">Explore Your Knowledge</string>
+
+    <string name="wt_map_desc">Find events &amp; workshops in your place.</string>
+    <string name="wt_learn_desc">Search workshops according to your interest and learning capabilities</string>
+    <string name="wt_explore_desc">Enhance your skills and knowledge by learning with quality peoples.</string>
+    <string name="applied_workshops">Applied Workshops</string>
+    <string name="find_workshops">Find Workshops</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="logout">Logout</string>
+    <string name="help">Help</string>
+    <string name="bug_report">Bug Report</string>
+    <string name="dev_info">Dev Info</string>
+</resources>

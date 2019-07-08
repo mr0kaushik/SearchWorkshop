@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="4dp">
+
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:gravity="start"
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:gravity="start"
+                android:id="@+id/tvOrganisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/colorPrimaryText"/>
+            <TextView
+                android:id="@+id/tvDesc"
+                android:gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/colorPrimaryText"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:text="@string/location"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textColor="@color/colorGreyLightDark"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/colon"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"/>
+
+                <TextView
+                    android:id="@+id/tvLocation"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:textColor="@color/colorPrimaryText"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:text="@string/starting_date"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textColor="@color/colorGreyLightDark"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/colon"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"/>
+
+                <TextView
+                    android:id="@+id/tvStartDate"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:textColor="@color/colorPrimaryText"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:text="@string/duration"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textColor="@color/colorGreyLightDark"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/colon"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"/>
+                <TextView
+                    android:id="@+id/tvDuration"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:textColor="@color/colorPrimaryText"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:text="@string/apply_by"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textColor="@color/colorGreyLightDark"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/colon"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"/>
+                <TextView
+                    android:id="@+id/tvApplyBy"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:textColor="@color/colorPrimaryText"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
